@@ -2,8 +2,8 @@ import React from 'react';
 import keepLogo from './imgs/google-keep-144.png'
 import reactLogo from './imgs/react-200.png'
 import firebaseLogo from './imgs/firebase-96.png'
-import {FiPlus,FiArrowRight,FiMoon,FiSun,FiUser} from 'react-icons/fi'
-import {BiUserCircle} from 'react-icons/bi'
+import {FiPlus,FiArrowRight} from 'react-icons/fi'
+// import {BiUserCircle} from 'react-icons/bi'
 import './styles/Header.css'
 
 

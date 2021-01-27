@@ -1,7 +1,7 @@
 .AddNote .input{
     border: none !important;
     font-family: 'Roboto', sans-serif !important;
-    font-size: 20px !important;
+    font-size: 16px !important;
     font-weight: 500;
 }
 
@@ -9,7 +9,8 @@
     border: none !important;
     resize: none;
     font-family: 'Roboto', sans-serif !important;
-    font-size: 16px !important;
+    font-size: 12px !important;
+    word-wrap: break-word;
 }
 
 
@@ -33,16 +34,40 @@
     right: 20px;
     background: #FFC400;
 }
+.AddNote .colorPin{
+    position: absolute;
+    bottom: 5px;
+    left: 3px;
+    cursor: pointer;
+}
+.AddNote .colorPlate{
+    height: 130px;
+    width:171px;
+    position: absolute;
+    bottom: -110px;
+    left: 50px;
+    background: white;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 35px 35px 35px 35px;
+    border-radius: 10px;
+}
+
+.individualColor{
+    border-radius: 50%;
+    height:35px;
+    border:1px solid;
+}
 
 input::placeholder{
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 textarea::placeholder{
     font-family: 'Roboto', sans-serif;
-    font-size: 19px;
+    font-size: 12px;
 }
 
 

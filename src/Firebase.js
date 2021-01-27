@@ -2,6 +2,11 @@ import React from 'react';
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 
+function Firebase(){
+  return(
+    <div></div>
+  )
+}
 var firebaseConfig = {
     apiKey: "AIzaSyDYze6HxIcbZ6kEmzbUi9CevTxfWsQ-Vr4",
     authDomain: "austin-keep.firebaseapp.com",
@@ -14,5 +19,7 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-  export const db=firebaseConfig.firestore()
+  export const db=firebase.firestore()
   db.settings({timestampsInSnapshots:true})
+
+  export default Firebase
